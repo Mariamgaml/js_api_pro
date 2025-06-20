@@ -1,0 +1,122 @@
+
+.mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .childDiv {
+    width: 300px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .childDiv img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .childDiv p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .childDiv .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .childDiv .btn:hover {
+    background-color: #45a049;
+  }
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .search input[type="search"] {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .search input[type="search"]:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+
+  .search i.fa-magnifying-glass {
+    color: #4caf50;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .search i.fa-magnifying-glass:hover {
+    color: #388e3c;
+  }
+  
+
+  .search a i.fa-cart-shopping {
+    color: #4caf50;
+    font-size: 22px;
+    transition: color 0.3s ease;
+  }
+  
+  .search a i.fa-cart-shopping:hover {
+    color: #388e3c;
+  }
+  
+
+  .search a {
+    text-decoration: none;
+  }
+  
+.childDiv:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  .childDiv:hover .btn {
+    background-color: #ff5722;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+
+  .childDiv .btn:hover {
+    background-color: #e64a19;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+   

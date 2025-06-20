@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(120deg, #a6c0fe, #f68084);
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        input:focus {
+            border-color: #6c63ff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(108, 99, 255, 0.6);
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #6c63ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #5548c8;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h3>user name</h3>
+        <input type="text" id="user" placeholder="enter your user name">
+        <h3>password</h3>
+        <input type="password" id="pass" placeholder="enter your password">
+        <button onclick="save()">submet</button>
+    </form>
+</body>
+<script src="index.js"></script>
+</html>
